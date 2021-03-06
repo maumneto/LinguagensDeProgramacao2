@@ -20,13 +20,13 @@ Este repositório contém os códigos dos exercícios resolvidos em sala de aula
 introdComp/
 │
 ├── LinguagensDeProgramacao2/
-│   ├── aula0/
-│   │   ├── cod1.py
-│   │   ├── cod2.py
+│   ├── Aula0/
+│   │   ├── Cod1.java
+│   │   ├── Cod2.java
 │   │   └── ...
-│   ├── aula1/
-│   │   ├── cod1.py
-│   │   ├── cod2.py
+│   ├── Aula1/
+│   │   ├── Cod1.java
+│   │   ├── Cod.java
 │   │   └── ...
 .
 .
