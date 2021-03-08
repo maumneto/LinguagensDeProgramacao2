@@ -1,8 +1,8 @@
 # **Linguagens De Programacao II (Orientado a Objetos) 2021.1**
 
-[![GitHub issues](https://img.shields.io/github/issues/maumneto/LinguagensDeProgramacao2.git)](https://github.com/maumneto/LinguagensDeProgramacao2.git/issues)
-[![GitHub forks](https://img.shields.io/github/forks/maumneto/LinguagensDeProgramacao2.git)](https://github.com/maumneto/LinguagensDeProgramacao2.git/network)
-[![GitHub stars](https://img.shields.io/github/stars/maumneto/LinguagensDeProgramacao2.git)](https://github.com/maumneto/LinguagensDeProgramacao2.git/stargazers)
+[![GitHub issues](https://img.shields.io/github/issues/maumneto/LinguagensDeProgramacao2)](https://github.com/maumneto/LinguagensDeProgramacao2/issues)
+[![GitHub forks](https://img.shields.io/github/forks/maumneto/LinguagensDeProgramacao2)](https://github.com/maumneto/LinguagensDeProgramacao2/network)
+[![GitHub stars](https://img.shields.io/github/stars/maumneto/LinguagensDeProgramacao2)](https://github.com/maumneto/LinguagensDeProgramacao2/stargazers)
 
 Este repositório tem o objetivo de auxiliar os alunos de Linguagens de Programação II (orientado a objetos) da Unichristus do semestre 2021-1. 
 Este repositório contém os códigos dos exercícios resolvidos em sala de aula.
