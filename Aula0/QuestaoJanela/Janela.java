@@ -6,7 +6,7 @@ class Janela {
 public static void main(String[] args) {
     float altura, largura , perimetro , area; // variaveis
     // instanciando os objetos necessários
-    Retangulo ret = new Retangulo ();
+    Retangulo ret = new Retangulo();
     Scanner entrada = new Scanner (System.in);
     // entrada de dados
     System .out.print("Digite a altura: " );
