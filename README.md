@@ -26,7 +26,7 @@ introdComp/
 │   │   └── ...
 │   ├── Aula1/
 │   │   ├── Cod1.java
-│   │   ├── Cod.java
+│   │   ├── Cod2.java
 │   │   └── ...
 .
 .
