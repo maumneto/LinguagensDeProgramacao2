@@ -10,5 +10,6 @@ public class HelloWorld {
         res = n + m;
         System.out.println("O resultado é ");
         System.out.print(res);
+        scan.close();
     }
 }
