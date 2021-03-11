@@ -19,7 +19,7 @@ public class Questao4 {
         c_side = scan.nextInt();
         scan.close();
         // logica (forma 1)
-        if (a_side < b_side + c_side && b_side < a_side + c_side && c_side < b_side + a_side) {
+        if ((a_side < b_side + c_side) && (b_side < a_side + c_side) && (c_side < b_side + a_side)) {
             System.out.println("É um triângulo");
         } else {
             System.out.println("Não é um triângulo");
