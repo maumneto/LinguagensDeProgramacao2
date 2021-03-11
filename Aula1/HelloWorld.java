@@ -11,5 +11,6 @@ public class HelloWorld {
         System.out.println("O resultado é ");
         System.out.print(res);
         scan.close();
+        System.err.println("Teste");
     }
 }
