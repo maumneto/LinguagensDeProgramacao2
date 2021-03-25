@@ -36,9 +36,9 @@ public class Professor2 {
         }
         return totalDisciplinas;
     }
-    public void  getNomeDisciplinas() {
+    public void  getNomeDasDisciplinas() {
         for (Disciplina2 d: disciplinas) {
-            System.out.println(d.nomeDisc);
+            System.out.println(d.getNomeDisciplina());
         }
     }
 }

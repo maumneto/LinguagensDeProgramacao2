@@ -22,6 +22,6 @@ public class Teste2 {
         System.out.println("Nome do Professor: " + profMauricio.getNomeProfessor());
         System.out.println("Total de Disciplinas Ministradas: " + profMauricio.getTotalDisciplinas());
         System.out.println("Disciplinas Ministradas: ");
-        profMauricio.getNomeDisciplinas();
+        profMauricio.getNomeDasDisciplinas();
     }
 }
