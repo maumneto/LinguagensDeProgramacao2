@@ -13,7 +13,7 @@ public class Estudante {
     public String nome;
     public String matricula;
     Curso curso;
-    
+    // construtor
     Estudante(String nome, String matricula, Curso curso){
         this.nome = nome;
         this.matricula = matricula;

@@ -17,7 +17,7 @@ public class Curso {
     public int codigo;
     Universidade universidade;
     List<Estudante> estudantes = new ArrayList<Estudante>();
-    
+    // construtor
     Curso(String nomeCurso, int codigo, Universidade universidade){
         this.nomeCurso = nomeCurso;
         this.codigo = codigo;
