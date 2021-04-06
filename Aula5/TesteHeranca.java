@@ -31,9 +31,10 @@ class ClasseB extends ClasseA {
 class TesteHeranca {
     public static void main(String[] args){
         ClasseB b = new ClasseB();
+        //ClasseA a = new ClasseA();
         b.metodoA();
         b.metodoB();
-        //((ClasseA )b).metodoB();
+        ((ClasseA ) b).metodoB();
         b.metodoC();
     }
 }

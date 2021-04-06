@@ -31,5 +31,7 @@ public class Calculadora {
         Calculadora calc = new Calculadora();
         System.out.println(calc.somar(4.939084938, 4.343424));
         System.out.println(calc.somar(1,2,3,4,5,6,7,8,9));
+        System.err.println(calc.somar(1, 1));
+        System.err.println(calc.somar(4, 3.3));
     }
 }
