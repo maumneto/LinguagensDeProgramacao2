@@ -19,22 +19,21 @@ class ClasseA {
 }
 
 class ClasseB extends ClasseA {
-   
-    public void metodoC(){
-        System.out.println("Invocando o metodoC da Classe B");
-    }
     public void metodoB(){
         System.out.println("Invocando o metodoB da Classe B");
+    }
+    public void metodoC(){
+        System.out.println("Invocando o metodoC da Classe B");
     }
 }
 
 class TesteHeranca {
     public static void main(String[] args){
         ClasseB b = new ClasseB();
-        //ClasseA a = new ClasseA();
+        ClasseA a = new ClasseA();
         b.metodoA();
-        b.metodoB();
-        ((ClasseA ) b).metodoB();
+        //b.metodoB();
+        ((ClasseA)b).metodoB();
         b.metodoC();
     }
 }
