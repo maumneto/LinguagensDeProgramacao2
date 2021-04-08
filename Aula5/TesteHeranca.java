@@ -33,7 +33,7 @@ class TesteHeranca {
         ClasseA a = new ClasseA();
         b.metodoA();
         //b.metodoB();
-        ((ClasseA)b).metodoB();
+        //((ClasseA)b).metodoB();
         b.metodoC();
     }
 }
