@@ -11,11 +11,11 @@ package Aula7.Exercicio4;
  */
 public class ContaBancariaEspecial extends ContaBancaria{
 
-    public ContaBancariaEspecial() {
-        super();
+    public ContaBancariaEspecial(String nome) {
+        super(nome);
     }
-    public ContaBancariaEspecial(double montante) {
-        super(montante);
+    public ContaBancariaEspecial(String nome, double montante) {
+        super(nome, montante);
     }
     @Override
     public void sacar(double quantia) {

@@ -9,13 +9,17 @@ package Aula7.Exercicio4;
  *
  * @author mauricio.moreira
  */
-public class ContaBancaria implements OperacoesBancarias{
+public class ContaBancaria implements OperacoesBancarias, OperacoesPessoais {
     public double montante;
+    public String nome;
+    public int id;
 
-    public ContaBancaria() {
+    public ContaBancaria(String nome) {
+        this.nome = nome;
         this.montante = 0;
     }
-    public ContaBancaria(double montante) {
+    public ContaBancaria(String nome, double montante) {
+        this.nome = nome;
         this.montante = montante;
     }
     @Override
@@ -34,5 +38,21 @@ public class ContaBancaria implements OperacoesBancarias{
     @Override
     public double saldo(){
         return montante;
+    }
+    @Override
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+    @Override
+    public void setId(int id) {
+        this.id = id;
+    }
+    @Override
+    public String getNome() {
+        return nome;
+    }
+    @Override
+    public int getId() {
+        return id;
     }
 }
