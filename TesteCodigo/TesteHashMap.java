@@ -33,8 +33,8 @@ public class TesteHashMap {
     public void showStates() {
         HashMap<String, String> estados = getStates();
         for (Map.Entry<String, String> data: estados.entrySet()) {
-            System.out.print(data.getKey());
-            System.out.print(data.getValue());
+            System.out.println(data.getKey());
+            System.out.println(data.getValue());
         }
     }
     
@@ -63,5 +63,6 @@ public class TesteHashMap {
         HashMap<String, String> hash = teste.getStates();
         teste.showUFMap();
         teste.showStates();
+        teste.exampleHash();
     }
 }
